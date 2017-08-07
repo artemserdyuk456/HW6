@@ -1,0 +1,465 @@
+@media (max-width: 995px) {
+    .title{
+        /*float: left;*/
+    }
+    .rico{
+        margin-left: -24px;
+
+    }
+    .menu ul{
+        /*margin-top: 50px;*/
+        padding-top: 35px;
+    }
+    .block h1{
+        font-size: 48px;
+    }
+    .block h3{
+        font-size: 20px;
+    }
+    .block p{
+        width: 270px;
+        height: 95px;
+        overflow: hidden;
+        font-size: 15px;
+    }
+    .block2{
+        margin-left: 0;
+    }
+
+
+    .inform p{
+        font-size: 24px;
+    }
+    .text{
+        margin-top: 5px;
+        width: 151px;
+        height: 138px;
+        overflow: hidden;
+        font-size: 16px;
+        text-align: justify;
+    }
+    .readme{
+        margin-top: 10px;
+        margin-left: 150px;
+    }
+
+
+
+
+    .left{
+        width: 316px;
+        height: 275px;
+    }
+    .element,.element2{
+        font-size: 24px;
+    }
+    .element{
+        padding-right: 270px;
+    }
+    .left p/*.text2*/{
+        width: 250px;
+        height: 147px;
+    }
+    .foot{
+        display: none;
+    }
+    .one h3,.one p{
+        width: 260px;
+        padding-left: 24px;
+        overflow: hidden;
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .one p{
+        padding-top: 3px;
+        height: 39px;
+    }
+    .one h3{
+        padding-top: 4px;
+        height: 27px;
+    }
+    .readmorehere{
+        margin-right: 45px;
+    }
+
+
+
+    .pig,.er,.word2 span{
+        font-size: 24px;
+    }
+    .er{
+        padding-right: 50px;
+    }
+    .nun,.textt {
+        width: 205px;
+        height: 160px;
+        text-align: inherit;
+    }
+    .menu1 ul{
+        padding: 30px 0;
+    }
+    .footerr{
+        padding-top: 45px;
+        float: right;
+    }
+
+}
+
+
+
+@media (max-width: 767px) {
+    .title {
+        text-align: center;
+    }
+
+    .rico {
+        margin-left: 0px;
+        /*padding-left: 51px;*/
+    }
+
+    .menu ul {
+        padding-top: 0px;
+        padding: 0px 0px;
+    }
+
+    .menu ul li {
+        padding: 0 0;
+    }
+
+    .n1, .n2, .n3, .n4, .n5 {
+        display: none;
+    }
+
+    .supermenu a {
+        display: block;
+        text-decoration: none;
+        width: 100%;
+        height: 100%;
+        color: #999;
+    }
+
+    .supermenu a:hover {
+        background: rgba(0, 0, 0, .3)
+    }
+
+    /* NAVIGATION */
+    .supermenu {
+        list-style: none;
+        padding: 0;
+        width: 263px;
+        height: 46px;
+        margin: 20px auto;
+        opacity: 0.9;
+        background: #35293d;
+        position: relative;
+        z-index: 9999;
+    }
+
+    .supermenu, .supermenu a.rico {
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+    }
+
+    .supermenu:hover, .supermenu:hover a.rico {
+        border-radius: 8px 8px 0 0;
+        -webkit-border-radius: 8px 8px 0 0;
+        -moz-border-radius: 8px 8px 0 0;
+    }
+
+    .supermenu a.rico {
+        padding-top: 10px;
+        display: block;
+        height: 46px;
+        font-size: 24px;
+        font-family: "LeagueGothicRegular";
+        text-align: center;
+        text-decoration: none;
+        color: #FFF;
+        -webkit-transition: 0.2s ease-in-out;
+        -o-transition: 0.2s ease-in-out;
+        transition: 0.2s ease-in-out;
+    }
+
+    .supermenu:hover a.rico {
+        /*border-bottom: 2px  solid #edbfff;*/
+        text-decoration: underline;
+
+    }
+
+    .supermenu li {
+        width: 263px;
+        height: 46px;
+        border: 1px solid #513e59;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, .16);
+        color: #999;
+        text-align: center;
+        margin: 0;
+        -webkit-transform-origin: 50% 0%;
+        -o-transform-origin: 50% 0%;
+        transform-origin: 50% 0%;
+        -webkit-transform: perspective(350px) rotateX(-90deg);
+        -o-transform: perspective(350px) rotateX(-90deg);
+        transform: perspective(350px) rotateX(-90deg);
+    }
+
+    .supermenu li:nth-child(even) {
+        background-color: #36293e;
+    }
+
+    .supermenu li:nth-child(odd) {
+        background-color: #36293e;
+    }
+
+    .supermenu li.n1 {
+        line-height: 40px;
+
+        -webkit-transition: 0.2s linear 0.8s;
+        -o-transition: 0.2s linear 0.8s;
+        transition: 0.2s linear 0.8s;
+    }
+
+    .supermenu li.n2 {
+        line-height: 40px;;
+        -webkit-transition: 0.2s linear 0.6s;
+        -o-transition: 0.2s linear 0.6s;
+        transition: 0.2s linear 0.6s;
+    }
+
+    .supermenu li.n3 {
+        line-height: 40px;
+        -webkit-transition: 0.2s linear 0.4s;
+        -o-transition: 0.2s linear 0.4s;
+        transition: 0.2s linear 0.4s;
+    }
+
+    .supermenu li.n4 {
+        line-height: 40px;
+        -webkit-transition: 0.2s linear 0.2s;
+        -o-transition: 0.2s linear 0.2s;
+        transition: 0.2s linear 0.2s;
+    }
+
+    .supermenu li.n5 {
+        line-height: 40px;;
+        border-radius: 0px 0px 4px 4px;
+        -webkit-transition: 0.2s linear 0s;
+        -o-transition: 0.2s linear 0s;
+        transition: 0.2s linear 0s;
+    }
+
+    .supermenu:hover li {
+        -webkit-transform: perspective(350px) rotateX(0deg);
+        -o-transform: perspective(350px) rotateX(0deg);
+        transform: perspective(350px) rotateX(0deg);
+        -webkit-transition: 0.2s linear 0s;
+        -o-transition: 0.2s linear 0s;
+        transition: 0.2s linear 0s;
+    }
+
+    .supermenu:hover .n2 {
+        -webkit-transition-delay: 0.2s;
+        -o-transition-delay: 0.2s;
+        transition-delay: 0.2s;
+    }
+
+    .supermenu:hover .n3 {
+
+        -webkit-transition-delay: 0.4s;
+        -o-transition-delay: 0.4s;
+        transition-delay: 0.4s;
+    }
+
+    .supermenu:hover .n4 {
+        transition-delay: 0.6s;
+        -o-transition-delay: 0.6s;
+        transition-delay: 0.6s;
+    }
+
+    .supermenu:hover .n5 {
+
+        -webkit-transition-delay: 0.8s;
+        -o-transition-delay: 0.8s;
+        transition-delay: 0.8s;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*********************************************/
+    .block h1{
+        font-size: 36px;
+    }
+    .block h3{
+        font-size: 14px;
+    }
+    .block p{
+        display: none;
+    }
+    .block2{
+        margin-left: 225px;
+        margin-top: -174px;
+
+    }
+    .inform{
+        max-width: 550px;
+        padding: 0 50px 0 5px;
+    }
+
+    .inform p{
+        margin-top: 18px;
+        text-shadow: 0 1px 0 #0e1418;
+    }
+    .text{
+        padding-right: 5px;
+        max-width: 90%;
+        height: 63px;
+    }
+    .readme{
+        margin-right: -40px;
+        float: right;
+    }
+    .content2{
+        height: 788px;
+    }
+
+
+    .content1{
+        float: none;
+        width: 450px;
+        max-width: 100%;
+        padding-left: 15px;
+        margin: 0 auto;
+    }
+    .element,.element2{
+        font-size: 30px;
+        text-shadow: 0 1px 0 #fff;
+    }
+    .element{
+        padding-right: 0px;
+    }
+    .left{
+
+    }
+    .left p{
+        max-width: 100%;
+        height: 131px;
+    }
+    .left{
+        width: 100%;
+        margin-top: 55px;
+    }
+    .picture{
+        margin-top: 13px;
+    }
+    .section3right{
+        margin: 0 auto;
+        width: 375px;
+        margin-top: -100px;
+
+    }
+    .readmorehere{
+        margin-right: 50px;
+    }
+    .scrinshot{
+        padding-top: 10px;
+        height: 280px;
+    }
+    .word, .word2{
+        overflow: hidden;
+        padding-right: 10px;
+        width: 380px;
+        padding-left: 5px;
+        margin: 0 auto;
+    }
+    .word{
+        padding-top: 78px;
+    }
+    .word2{
+        padding-top: 0px;
+    }
+    .nun, .text,.textt{
+        width: 440px;
+    }
+
+
+    .footer{
+        height: 200px;
+    }
+
+
+    .menu1{
+        max-width: 607px;
+        margin: 0 auto;
+    }
+    .menu1 a{
+        font-size: 16px;
+    }
+
+
+    .menu1 ul{
+
+    }
+    .footerr{
+        margin: 0 auto;
+        padding-top: 0;
+        margin-top: 0px;
+        float: none;
+    }
+
+    }
+
+
+
+
+@media (max-width: 575px) {
+    .bg{
+        height: 510px;
+    }
+    .n1,.n2,.n3,.n4,.n5{
+        display: none;
+    }
+    .supermenu ul li{
+        display: none;
+    }
+    .content{
+        background: none;
+    }
+    .block{
+        text-align: center;
+        margin: 0 auto;
+        margin-top: -80px
+
+    }
+
+    .block2{
+        display: none;
+    }
+    .element{
+        padding-right: 318px;
+    }
+
+
+    .one{
+
+    }
+
+    .hey,.menu1 {
+        display: none;
+    }
+    .footerr{
+        margin-top: 40px;
+    }
+
+}
+
